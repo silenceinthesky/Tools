@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T02:12:13.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.3.4" etag="2qISycYFOQJ4wHisc3px" type="github"><diagram id="1yf_RkeojxkNVYISUwOE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-01T02:38:36.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="APqKPq31rhZyJTGDjXxs" version="15.3.4" type="github">
+  <diagram id="1yf_RkeojxkNVYISUwOE" name="Page-1">
+    <mxGraphModel dx="1246" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-1" value="网关层" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-2" value="接口级（limit_req）" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-3" value="商户号+接口&lt;br&gt;（lua + 缓存）" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-4" value="" style="shape=flexArrow;endArrow=classic;html=1;startSize=14;endSize=16.3;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endWidth=33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="245" as="sourcePoint" />
+            <mxPoint x="330" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-5" value="业务请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6FKXDvbQbLNeEYdqOj8C-4">
+          <mxGeometry x="-0.1556" y="-4" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-6" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6FKXDvbQbLNeEYdqOj8C-1" target="6FKXDvbQbLNeEYdqOj8C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6FKXDvbQbLNeEYdqOj8C-7" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6FKXDvbQbLNeEYdqOj8C-2" target="6FKXDvbQbLNeEYdqOj8C-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="490" as="sourcePoint" />
+            <mxPoint x="230" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
